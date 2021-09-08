@@ -22,22 +22,28 @@ input,
 label {
   display: block;
   width: 100%;
+
 }
 
 input {
-  width: 100%;
-  margin-bottom: 0.5rem;
-   border-radius: 0.2rem;
+    width: 100%;
+    border: 1.5px solid var(--color-primary);
+  outline: none;
+  border-radius: 25px;
+  padding: 0.4rem 0.8rem;
+ 
+
 }
-#check-number {
+button {
   display: block;
   margin-top: 1rem;
-  margin: auto;
+margin: 1rem;
   background: transparent;
   color: var(--primary-light);
   border-color:var(--primary-light);
   border-width: medium;
-  padding: 0.5rem;
-  border-radius: 0.2rem;
+  padding: o.5rem;
+  border-radius: 0.4rem;
+  align-self: ce;
 }  
 
